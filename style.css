@@ -144,3 +144,21 @@
     border-radius: 5px !important;
 }
 
+
+.center-header .ag-header-cell-label {
+    justify-content: center !important;
+}
+
+.center-header .ag-header-group-cell-label {
+    justify-content: center !important;
+}
+
+
+/* .ag-header-cell-label {
+    justify-content: center;
+}
+
+.ag-header-group-cell-label {
+    justify-content: center !important;
+} */
+
