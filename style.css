@@ -153,12 +153,68 @@
     justify-content: center !important;
 }
 
-
-/* .ag-header-cell-label {
-    justify-content: center;
+.ag-header-cell-label .ag-header-cell-text {
+    white-space: pre-wrap !important;
+    text-align: center !important;
+    width: 100%;
+    font-size: 18px !important;
+    color: #663399 !important;
 }
 
-.ag-header-group-cell-label {
-    justify-content: center !important;
-} */
+.ag-cell{
+    /* background-clip: content-box !important; */
+    padding: 5px 10px 5px 10px !important;
+    /* border: none !important; */
+}
 
+/* Remove horizontal lines between rows */
+.ag-row {
+    /* border-bottom: none !important; */
+    /* border-bottom: 1px solid white !important; */
+    border-bottom: 3px solid #FDFBF7 !important;
+    /* background-color: #F9F9F9 !important; */
+    background-color: #FDFBF7 !important;
+}
+
+
+
+
+
+
+/* Removes the primary line separating the header block from the table rows */
+.ag-theme-alpine .ag-header {
+    border-bottom: none !important;
+    /* background-color: white !important; */
+    background-color: #FDFBF7 !important;
+}
+
+/* Removes the secondary critical UX grid line underneath the header */
+.ag-theme-alpine {
+    --ag-borders-critical: none !important;
+    /* background-color: white !important; */
+    background-color: #FDFBF7 !important;
+}
+
+.ag-theme-alpine .ag-body-viewport {
+    overflow-x: hidden !important;
+}
+
+.ag-root-wrapper.ag-layout-normal{
+    border-radius: 7px;
+}
+
+.ag-root-wrapper{
+    border: none !important;
+}
+
+
+.rounded-graph {
+    border-radius: 7px;
+    overflow: hidden;
+    /* border: 1px solid #e3e3e3; */
+}
+
+/* Forces the internal Plotly canvas to respect the curve */
+.rounded-graph .main-svg {
+    border-radius: 7px;
+}
