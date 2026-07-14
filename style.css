@@ -153,6 +153,32 @@
     justify-content: center !important;
 }
 
+.BOB-center-header .ag-header-cell-label {
+    width: 100%;
+    font-size: 16px !important;
+    color: #1e5b31 !important;
+    justify-content: center !important;
+}
+.BOB-center-header .ag-header-group-cell-label {
+    width: 100%;
+    font-size: 16px !important;
+    color: #1e5b31 !important;
+    justify-content: center !important;
+}
+
+.WOW-center-header .ag-header-cell-label {
+    width: 100%;
+    font-size: 16px !important;
+    color: #722725 !important;
+    justify-content: center !important;
+}
+.WOW-center-header .ag-header-group-cell-label {
+    width: 100%;
+    font-size: 16px !important;
+    color: #722725 !important;
+    justify-content: center !important;
+}
+
 .ag-header-cell-label .ag-header-cell-text {
     white-space: pre-wrap !important;
     text-align: center !important;
@@ -170,13 +196,27 @@
 /* Remove horizontal lines between rows */
 .ag-row {
     /* border-bottom: none !important; */
-    /* border-bottom: 1px solid white !important; */
+    /* border-bottom: 1px solid white !important; */    
     border-bottom: 3px solid #FDFBF7 !important;
     /* background-color: #F9F9F9 !important; */
     background-color: #FDFBF7 !important;
 }
 
+.BOB-header .ag-header-cell-label .ag-header-cell-text{
+    white-space: pre-wrap !important;
+    text-align: center !important;
+    width: 100%;
+    font-size: 16px !important;
+    color: #1e5b31 !important;
+}
 
+.WOW-header .ag-header-cell-label .ag-header-cell-text{
+    white-space: pre-wrap !important;
+    text-align: center !important;
+    width: 100%;
+    font-size: 16px !important;
+    color: #722725 !important;
+}
 
 
 
@@ -193,6 +233,7 @@
     --ag-borders-critical: none !important;
     /* background-color: white !important; */
     background-color: #FDFBF7 !important;
+    --ag-background-color: #FDFBF7 !important;
 }
 
 .ag-theme-alpine .ag-body-viewport {
@@ -205,6 +246,10 @@
 
 .ag-root-wrapper{
     border: none !important;
+}
+
+.ag-body-viewport{
+    overscroll-behavior: none;
 }
 
 
